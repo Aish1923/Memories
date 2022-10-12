@@ -10,7 +10,7 @@ import { GoogleOAuthProvider } from '@react-oauth/google';
 const App = () => {
   const user=JSON.parse(localStorage.getItem('profile'));
   return (
-    <GoogleOAuthProvider clientId="1056747209937-7nl05kp0pbtiur7pm1qq1gvq3tvt2jha.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId="">
     <BrowserRouter>
       <Container maxWidth="xl">
         <Navbar />
