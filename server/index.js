@@ -22,7 +22,7 @@ app.use('/user',userRoutes);
 //https://www.mongodb.com/atlas/database
 //mongodb+srv://<username>:<password>@cluster0.zlzyg.mongodb.net/?retryWrites=true&w=majority
 
-const CONNECTION_URL='mongodb+srv://memoriesUser:memoriesUser123@cluster0.zlzyg.mongodb.net/?retryWrites=true&w=majority';
+const CONNECTION_URL='?retryWrites=true&w=majority';
 const PORT=process.env.PORT || 5000;
 
 mongoose.connect(CONNECTION_URL)
